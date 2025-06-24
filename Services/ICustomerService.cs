@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using BusinessObject;
+using Repository;
+
+namespace Services
+{
+    public interface ICustomerService
+    {
+        public void GenerateSampleDataset();
+        public List<Customer> GetAllCustomers();
+    }
+}
